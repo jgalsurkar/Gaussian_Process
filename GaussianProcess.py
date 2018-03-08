@@ -1,3 +1,9 @@
+import numpy as np
+import pandas as pd
+import itertools as it
+import scipy
+import scipy.spatial
+
 class rbf(object):
     """Radial Basis Function (RBF/Gaussian Kernel)
     
